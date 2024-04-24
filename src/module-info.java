@@ -1,4 +1,5 @@
 module javafx_jdbc {
+	opens gui;
 	requires javafx.controls;
 	requires javafx.fxml;
 	
